@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Proactive Customer Support System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A data-driven proactive customer service system designed for the housing repairs sector.  
+This project uses data mining, machine learning, and natural language processing to predict repair requests that may escalate into customer complaints and provide automated tenant support through a chatbot.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+Traditional customer service in housing repairs is mostly reactive. Issues are handled only after tenants raise complaints, which can lead to delays, inefficiencies, and dissatisfaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project introduces a **proactive customer service system** that:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Predicts repair requests that may lead to complaints
+- Identifies patterns in repair data using data mining
+- Provides an NLP-based chatbot to handle tenant queries
+- Supports better resource allocation and faster response times
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+- Predictive model to identify repair requests likely to escalate into complaints
+- NLP-based chatbot for tenant inquiries
+- Data mining techniques to uncover patterns in repair requests
+- Privacy-preserving data processing through anonymisation
+- Interactive system for proactive customer service
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Machine Learning & Data Analysis
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
 
-### `npm run eject`
+### Data Mining Techniques
+- K-Means Clustering
+- Association Rule Mining
+- t-SNE Visualization
+- Multilayer Perceptron (MLP)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Natural Language Processing
+- spaCy
+- NLTK
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Application Development
+- Streamlit
+- Flask
+- React.js
+- SQLite
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## System Architecture
 
-## Learn More
+The system consists of three main components:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Data Processing Layer**
+   - Data cleaning
+   - Anonymisation of personal information
+   - Feature engineering
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Predictive Analytics Layer**
+   - Machine learning model predicting complaints
+   - Pattern discovery using clustering and association rules
 
-### Code Splitting
+3. **Customer Support Layer**
+   - NLP chatbot for tenant queries
+   - Web interface for user interaction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Dataset
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The dataset used in this project includes:
 
-### Making a Progressive Web App
+- Repair job records from housing association systems
+- Tenant service request data
+- Historical complaint records
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The dataset contains over **100,000 repair service records** used to analyse patterns and build predictive models.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Objectives
 
-### Deployment
+- Predict repair requests that may lead to complaints
+- Improve customer service efficiency
+- Reduce tenant dissatisfaction
+- Support proactive decision-making in housing repair services
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Deploy the system as a full production web application
+- Improve chatbot training using larger datasets
+- Integrate real-time repair management systems
+- Expand predictive models using deep learning
+
+---
+
+## Author
+
+Victor Chukwude  
+Business Analyst | Data Professional | Data Science
+
+LinkedIn: https://www.linkedin.com/in/victorchukwude
